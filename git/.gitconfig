@@ -1,0 +1,17 @@
+[user]
+	email = altasvan@gmail.com
+	name = altasvan
+[core]
+	editor = vim
+	autocrlf = input
+	ignorecase = false
+[alias]
+	st = status 
+	cl = clone
+	ci = commit
+	co = checkout
+	br = branch 
+	lg = log --oneline
+	ls = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+[credential]
+	helper = cache
