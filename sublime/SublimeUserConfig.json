@@ -105,8 +105,10 @@
   "hot_exit": true,
   "ignored_packages":
   [
-    "Vintage"
+    //"Vintage"
+    //Enable vim function. 
   ],
+  "vintage_start_in_command_mode": true,
   "indent_guide_options":
   [
     "draw_normal"
