@@ -1,0 +1,35 @@
+#work from fresh ubuntu 14
+sudo apt-get update & sudo apt-get upgrade;
+sudo apt-get install build-essentials
+# If you are running on vmware 
+sudo git clone https://github.com/rasa/vmware-tools-patches.git
+cd vmware-tools-patches/
+./patched-open-vm-tools.sh
+# end of vmware tool setting 
+
+# GIT
+sudo apt-get install vim tmux compizconfig-settings-manager xclip zsh
+git config --global user.email "your email address"
+git config --global user.name "your name"
+# next step is to get up ssh connection with git.
+#https://help.github.com/articles/generating-an-ssh-key/
+
+#TMUX
+# Copy file under config file in my repo tmux folder.
+#some tutorial on tmux command list
+#https://gist.github.com/MohamedAlaa/2961058 
+
+#ZSH
+# Use Zsh as default; which will be enabled next time login.
+chsh -s $(which zsh)
+# install oh my Z shell; alternative #sudo curl -L http://install.ohmyz.sh | sh
+git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh 
+cd 
+touch .zshrc
+# Copy file under zsh in my repo zsh folder.
+
+
+#VIM 
+
+
+
