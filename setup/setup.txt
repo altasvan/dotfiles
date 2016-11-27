@@ -29,7 +29,29 @@ touch .zshrc
 # Copy file under zsh in my repo zsh folder.
 
 
-#VIM 
+#VIM via powerline tool;
 
+sudo apt-get install powerline
 
+OR manuall
+http://askubuntu.com/questions/283908/how-can-i-install-and-use-powerline-plugin
+
+sudo apt-get install python-pip git
+pip install  --user powerline-status
+pip install --user git+git://github.com/powerline/powerline
+
+#wget https://github.com/powerline/powerline/raw/develop/font/PowerlineSymbols.otf
+#wget https://github.com/powerline/powerline/raw/develop/
+
+font/10-powerline-symbols.conf
+mv PowerlineSymbols.otf ~/.fonts/
+fc-cache -vf ~/.fonts/
+mv 10-powerline-symbols.conf ~/.config/fontconfig/conf.d/
+
+#User Log out and add to .vimrc
+set laststatus=2
+set t_Co=256
+python from powerline.vim import setup as powerline_setup
+python powerline_setup()
+python del powerline_setup
 
