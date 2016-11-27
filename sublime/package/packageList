@@ -1,4 +1,4 @@
 Install Package:
 
-trimmer command : Ctrl + Alt + S
-aligiemnt command : Ctrl + Alt + A 
+trimmer command : Ctrl + Alt + S (Win + linux) (MacOS) need to change user keybinding to [super + Ctrl + S]
+aligiemnt command : Ctrl + Alt + A (Win + linux) (MacOS) [super + Ctrl + a] 
